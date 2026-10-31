@@ -65,37 +65,41 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Move & Grow
 
-Nama: Raisa Fazila Faisal
-NIM: 124140006
-Kelas: RB
-Tema: Jurnal Latihan Olahraga
-Deployment: https://raisafzlf.github.io/uts-paw/
+**Nama:** Raisa Fazila Faisal  
+**NIM:** 124140006  
+**Kelas:** RB  
+**Tema:** Jurnal Latihan Olahraga  
+**Deployment:** [Move & Grow](https://raisafzlf.github.io/uts-paw/)
+![Tangkapan layar beranda](docs/Beranda.png)
 
 ![Tangkapan layar beranda](docs/Beranda.png)
 
 ## Fitur
--Menampilkan kumpulan aktivitas olahraga.
--Mencari aktivitas olahraga berdasarkan judul.
--Memfilter aktivitas berdasarkan kategori.
--Melihat detail aktivitas olahraga, termasuk kategori, tanggal latihan, durasi latihan, dan kalori terbakar.
--Menambahkan aktivitas olahraga melalui formulir.
--Menghapus aktivitas olahraga melalui halaman detail.
--Menampilkan statistik aktivitas olahraga.
--Menampilkan informasi tentang aplikasi.
+
+- Menampilkan kumpulan aktivitas olahraga.
+- Mencari aktivitas olahraga berdasarkan judul.
+- Memfilter aktivitas berdasarkan kategori.
+- Melihat detail aktivitas olahraga, termasuk kategori, tanggal latihan, durasi latihan, dan kalori terbakar.
+- Menambahkan aktivitas olahraga melalui formulir.
+- Menghapus aktivitas olahraga melalui halaman detail.
+- Menampilkan statistik aktivitas olahraga.
+- Menampilkan informasi tentang aplikasi.
 
 ## Menjalankan secara lokal
 
+```bash
 cd app
 npm install
 npm run dev
+```
 
-## Konsep React yang dipakai
+## Konsep React yang Dipakai
 
--Functional Component: Membagi tampilan aplikasi menjadi beberapa komponen.
--useState: Menyimpan nilai pencarian dan kategori yang dipilih.
--Custom Hook: Menggunakan useKoleksi untuk mengelola data aktivitas olahraga.
--Props: Mengirim data dan fungsi antar-komponen.
--React Router: Mengatur perpindahan halaman koleksi dan detail aktivitas.
--Event Handling: Menangani interaksi pengguna.
--Conditional Rendering: Menampilkan tampilan sesuai kondisi data.
--Array Methods: Menggunakan map(), filter(), dan find() untuk mengolah data aktivitas.
+- **Functional Component:** Membagi tampilan aplikasi menjadi beberapa komponen.
+- **useState:** Menyimpan nilai pencarian dan kategori yang dipilih.
+- **Custom Hook:** Menggunakan `useKoleksi` untuk mengelola data aktivitas olahraga.
+- **Props:** Mengirim data dan fungsi antar-komponen.
+- **React Router:** Mengatur perpindahan halaman koleksi dan detail aktivitas.
+- **Event Handling:** Menangani interaksi pengguna.
+- **Conditional Rendering:** Menampilkan tampilan sesuai kondisi data.
+- **Array Methods:** Menggunakan `map()`, `filter()`, dan `find()` untuk mengolah data aktivitas.as.
