@@ -1,4 +1,4 @@
-#Ujian Tengah Semester IF25-22014 Pengembangan Aplikasi Web
+# Ujian Tengah Semester IF25-22014 Pengembangan Aplikasi Web
 
 Repo induk Ujian Tengah Semester Pengembangan Aplikasi Web, Informatika ITERA, semester ganjil 2026/2027.
 
@@ -27,7 +27,7 @@ Kode yang dihasilkan wajib mengikuti konvensi penamaan repositori penilaian beri
 Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 -->
 
-##Langkah singkat
+## Langkah singkat
 
 1. Fork repo ini ke akun GitHub kamu.
 2. Di fork: tab **Actions**, aktifkan workflow. Lalu **Settings → Pages → Source: GitHub Actions**.
@@ -45,7 +45,7 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 
 Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts-paw.mhabibalgifari.web.id/panduan).
 
-##Isi repo
+## Isi repo
 
 | Folder | Isi | Boleh diubah mahasiswa |
 |---|---|---|
@@ -63,7 +63,7 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
 ```markdown
-#Move & Grow
+# Move & Grow
 
 Nama: Raisa Fazila Faisal
 NIM: 124140006
@@ -71,9 +71,9 @@ Kelas: RB
 Tema: Jurnal Latihan Olahraga
 Deployment: https://raisafzlf.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](docs/Beranda.png)
 
-##Fitur
+## Fitur
 -Menampilkan kumpulan aktivitas olahraga.
 -Mencari aktivitas olahraga berdasarkan judul.
 -Memfilter aktivitas berdasarkan kategori.
@@ -83,13 +83,13 @@ Deployment: https://raisafzlf.github.io/uts-paw/
 -Menampilkan statistik aktivitas olahraga.
 -Menampilkan informasi tentang aplikasi.
 
-##Menjalankan secara lokal
+## Menjalankan secara lokal
 
 cd app
 npm install
 npm run dev
 
-##Konsep React yang dipakai
+## Konsep React yang dipakai
 
 -Functional Component: Membagi tampilan aplikasi menjadi beberapa komponen.
 -useState: Menyimpan nilai pencarian dan kategori yang dipilih.
