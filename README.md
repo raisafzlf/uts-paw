@@ -69,7 +69,7 @@ Nama: Raisa Fazila Faisal
 NIM: 124140006
 Kelas: RB
 Tema: Jurnal Latihan Olahraga
-Deployment: https://USERNAME.github.io/uts-paw/
+Deployment: https://raisafzlf.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 

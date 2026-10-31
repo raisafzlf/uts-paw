@@ -7,10 +7,181 @@
 
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:#C5C4EB;
+  color: #333;
+}
+
+header{
+  background-color: #8e6bbf;
+  color: white;
+  padding: 20px;
+}
+
+nav{
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  background-color: #8e6bbf;
+  color: #c5c4eb;
+  padding: 15px;
+  text-align: center;
 }
 
 main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 5px;
+  background-color: #c5c4eb;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.daftar-kartu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.daftar-kartu > * {
+    background-color: #f7f2fc;
+    padding: 12px;
+    border: 1px solid #b99bd5;
+    border-top: 5px solid #8e6bbf;
+    border-radius: 10px;
+}
+
+.judul-koleksi {
+    background-color: #8e6bbf;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.judul-koleksi h1 {
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .daftar-kartu {
+        grid-template-columns: 1fr;
+    }
+}
+
+.beranda {
+    background-color: #f7f2fc;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px;
+    text-align: center;
+}
+.beranda {
+    background-color: #f7f2fc;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px;
+    text-align: center;
+}
+
+.beranda h1 {
+    color: #6a3d91;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.beranda p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.beranda a {
+    display: inline-block;
+    background-color: #8e6bbf;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.beranda a:hover {
+    background-color: #6a3d91;
+}
+
+.statistik{
+  background-color: #f7f2fc;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.statistik h1{
+  color: #6a3d91;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tabel-data {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-data th {
+    background-color: #8e6bbf;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabel-data td {
+    padding: 10px;
+    border-bottom: 1px solid #d8c3ed;
+}
+
+.tabel-data tfoot {
+    background-color: #e6d9f2;
+}
+
+.tentang {
+    background-color: #f7f2fc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tentang h1 {
+    color: #6a3d91;
+}
+
+.tentang p {
+    color: #444;
+    line-height: 1.6;
+}
+
+.tombol-hapus {
+    background-color: #8e6bbf;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tombol-hapus:hover {
+    background-color: #6a3d91;
+}
+
+.tombol-kembali {
+    display: inline-block;
+    background-color: #8e6bbf;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.tombol-kembali:hover {
+    background-color: #6a3d91;
 }

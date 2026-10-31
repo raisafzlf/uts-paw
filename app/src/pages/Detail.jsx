@@ -37,10 +37,8 @@ export default function Detail (){
                 <dd>{item.kalori}</dd>
             </dl>
             <div className="aksi">
-                <button type="button" onClick={konfirmasiHapus}>
-                    Hapus
-                </button>
-            <Link to="/koleksi">Kembali</Link>
+                <button className="tombol-hapus" onClick={hapus}>Hapus</button>
+                <Link className="tombol-kembali" to="/koleksi">Kembali</Link>
             </div>
         </section>
     )

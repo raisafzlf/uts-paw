@@ -6,7 +6,7 @@ export default function Statistik(){
     const perKategori = items.filter((item) => item.kategori && item.kategori.trim() !== "").reduce((hitung, {kategori}) => ({...hitung, [kategori]: (hitung[kategori]?? 0) + 1}), {}
   )
     return (
-        <section>
+        <section className="statistik">
          <h1>Statistik</h1>
          <div className="tabel-gulir">
             <table className="tabel-data">
