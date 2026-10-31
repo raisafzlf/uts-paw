@@ -65,12 +65,11 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Move & Grow
 
-**Nama:** Raisa Fazila Faisal  
-**NIM:** 124140006  
-**Kelas:** RB  
-**Tema:** Jurnal Latihan Olahraga  
-**Deployment:** [Move & Grow](https://raisafzlf.github.io/uts-paw/)
-![Tangkapan layar beranda](docs/Beranda.png)
+Nama: Raisa Fazila Faisal  
+NIM: 124140006  
+Kelas: RB  
+Tema: Jurnal Latihan Olahraga  
+Deployment: https://raisafzlf.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/Beranda.png)
 
@@ -95,11 +94,11 @@ npm run dev
 
 ## Konsep React yang Dipakai
 
-- **Functional Component:** Membagi tampilan aplikasi menjadi beberapa komponen.
-- **useState:** Menyimpan nilai pencarian dan kategori yang dipilih.
-- **Custom Hook:** Menggunakan `useKoleksi` untuk mengelola data aktivitas olahraga.
-- **Props:** Mengirim data dan fungsi antar-komponen.
-- **React Router:** Mengatur perpindahan halaman koleksi dan detail aktivitas.
-- **Event Handling:** Menangani interaksi pengguna.
-- **Conditional Rendering:** Menampilkan tampilan sesuai kondisi data.
-- **Array Methods:** Menggunakan `map()`, `filter()`, dan `find()` untuk mengolah data aktivitas.as.
+- Functional Component: Membagi tampilan aplikasi menjadi beberapa komponen.
+- useState: Menyimpan nilai pencarian dan kategori yang dipilih.
+- Custom Hook: Menggunakan useKoleksi untuk mengelola data aktivitas olahraga.
+- Props: Mengirim data dan fungsi antar-komponen.
+- React Router: Mengatur perpindahan halaman koleksi dan detail aktivitas.
+- Event Handling: Menangani interaksi pengguna.
+- Conditional Rendering: Menampilkan tampilan sesuai kondisi data.
+- Array Methods: Menggunakan map(), filter(), dan find() untuk mengolah data aktivitas.
