@@ -102,3 +102,5 @@ npm run dev
 - Event Handling: Menangani interaksi pengguna.
 - Conditional Rendering: Menampilkan tampilan sesuai kondisi data.
 - Array Methods: Menggunakan map(), filter(), dan find() untuk mengolah data aktivitas.
+
+  ```
