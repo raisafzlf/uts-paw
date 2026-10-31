@@ -43,14 +43,14 @@
 }
 
 .formulir button {
-    background-color: #8e6bbf;
-    color: white;
-    border: none;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .formulir button:hover {
-    background-color: #6a3d91;
+    background-color: #eee;
 }

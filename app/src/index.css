@@ -1,40 +1,40 @@
 :root {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.5;
-  color: #1f2328;
-  background: #C5C4EB;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.5;
+    color: black;
+    background: white;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color:#C5C4EB;
-  color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
 }
 
-header{
-  background-color: #8e6bbf;
-  color: white;
-  padding: 20px;
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
 }
 
-nav{
-  text-align: center;
-  padding: 5px;
+nav {
+    text-align: center;
+    padding: 5px;
 }
 
 footer {
-  background-color: #8e6bbf;
-  color: #c5c4eb;
-  padding: 15px;
-  text-align: center;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
 }
 
 main {
-  padding: 5px;
-  background-color: #c5c4eb;
-  margin: 10px;
-  border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .daftar-kartu {
@@ -44,23 +44,38 @@ main {
 }
 
 .daftar-kartu > * {
-    background-color: #f7f2fc;
+    background-color: white;
     padding: 12px;
-    border: 1px solid #b99bd5;
-    border-top: 5px solid #8e6bbf;
+    border: 1px solid #ccc;
+    border-top: 5px solid #ccc;
     border-radius: 10px;
 }
 
 .judul-koleksi {
-    background-color: #8e6bbf;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 25px;
+    border: 1px solid #ccc;
+    border-top: 5px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .judul-koleksi h1 {
-    color: white;
+    color: black;
+}
+
+.kartu-item a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.kartu-item a:hover {
+    background-color: #eee;
 }
 
 @media (max-width: 700px) {
@@ -70,35 +85,31 @@ main {
 }
 
 .beranda {
-    background-color: #f7f2fc;
+    background-color: white;
     padding: 30px;
-    border-radius: 12px;
-    margin: 20px;
-    text-align: center;
-}
-.beranda {
-    background-color: #f7f2fc;
-    padding: 30px;
+    border: 1px solid #ccc;
+    border-top: 5px solid #ccc;
     border-radius: 12px;
     margin: 20px;
     text-align: center;
 }
 
 .beranda h1 {
-    color: #6a3d91;
+    color: black;
     font-size: 32px;
     margin-bottom: 15px;
 }
 
 .beranda p {
-    color: #555;
+    color: black;
     font-size: 16px;
     line-height: 1.6;
 }
+
 .beranda a {
     display: inline-block;
-    background-color: #8e6bbf;
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
     padding: 12px 20px;
     border-radius: 8px;
@@ -107,20 +118,22 @@ main {
 }
 
 .beranda a:hover {
-    background-color: #6a3d91;
+    background-color: #eee;
 }
 
-.statistik{
-  background-color: #f7f2fc;
-  padding: 25px;
-  border-radius: 12px;
-  margin: 20px;
+.statistik {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-top: 5px solid #ccc;
+    border-radius: 12px;
+    margin: 20px;
 }
 
-.statistik h1{
-  color: #6a3d91;
-  text-align: center;
-  margin-bottom: 25px;
+.statistik h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .tabel-data {
@@ -129,59 +142,62 @@ main {
 }
 
 .tabel-data th {
-    background-color: #8e6bbf;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px;
     text-align: left;
 }
 
 .tabel-data td {
     padding: 10px;
-    border-bottom: 1px solid #d8c3ed;
+    border-bottom: 1px solid #ccc;
 }
 
 .tabel-data tfoot {
-    background-color: #e6d9f2;
+    background-color: white;
 }
 
 .tentang {
-    background-color: #f7f2fc;
+    background-color: white;
     padding: 20px;
     margin: 20px;
+    border: 1px solid #ccc;
+    border-top: 5px solid #ccc;
     border-radius: 10px;
 }
 
 .tentang h1 {
-    color: #6a3d91;
+    color: black;
 }
 
 .tentang p {
-    color: #444;
+    color: black;
     line-height: 1.6;
 }
 
 .tombol-hapus {
-    background-color: #8e6bbf;
-    color: white;
-    border: none;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .tombol-hapus:hover {
-    background-color: #6a3d91;
+    background-color: #eee;
 }
 
 .tombol-kembali {
     display: inline-block;
-    background-color: #8e6bbf;
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
     padding: 8px 12px;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 .tombol-kembali:hover {
-    background-color: #6a3d91;
+    background-color: #eee;
 }
