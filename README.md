@@ -63,7 +63,7 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
 ```markdown
-# Nama Aplikasi
+# Move & Grow
 
 Nama: Raisa Fazila Faisal
 NIM: 124140006
@@ -74,8 +74,14 @@ Deployment: https://raisafzlf.github.io/uts-paw/
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
-
-- ...
+-Menampilkan kumpulan aktivitas olahraga.
+-Mencari aktivitas olahraga berdasarkan judul.
+-Memfilter aktivitas berdasarkan kategori.
+-Melihat detail aktivitas olahraga, termasuk kategori, tanggal latihan, durasi latihan, dan kalori terbakar.
+-Menambahkan aktivitas olahraga melalui formulir.
+-Menghapus aktivitas olahraga melalui halaman detail.
+-Menampilkan statistik aktivitas olahraga.
+-Menampilkan informasi tentang aplikasi.
 
 ## Menjalankan secara lokal
 
@@ -85,5 +91,11 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+-Functional Component: Membagi tampilan aplikasi menjadi beberapa komponen.
+-useState: Menyimpan nilai pencarian dan kategori yang dipilih.
+-Custom Hook: Menggunakan useKoleksi untuk mengelola data aktivitas olahraga.
+-Props: Mengirim data dan fungsi antar-komponen.
+-React Router: Mengatur perpindahan halaman koleksi dan detail aktivitas.
+-Event Handling: Menangani interaksi pengguna.
+-Conditional Rendering: Menampilkan tampilan sesuai kondisi data.
+-Array Methods: Menggunakan map(), filter(), dan find() untuk mengolah data aktivitas.
