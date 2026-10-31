@@ -60,9 +60,6 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 ##README milikmu
 
-Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
-
-```markdown
 # Move & Grow
 
 Nama: Raisa Fazila Faisal  
@@ -71,6 +68,7 @@ Kelas: RB
 Tema: Jurnal Latihan Olahraga  
 Deployment: https://raisafzlf.github.io/uts-paw/
 
+### Halaman Beranda
 ![Tangkapan layar beranda](docs/Beranda.png)
 
 ## Fitur
