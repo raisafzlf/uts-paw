@@ -1,10 +1,91 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Yoga",
+    "kategori": "Fleksibilitas",
+    "tanggal": "23-09-2026",
+    "durasi": 45,
+    "kalori": 150
+  },
+
+  {
+    "id": "2",
+    "judul": "Futsal",
+    "kategori": "Olahraga Permainan",
+    "tanggal": "25-09-2026",
+    "durasi": 60,
+    "kalori": 450
+  },
+
+   {
+    "id": "3",
+    "judul": "Jogging",
+    "kategori": "Kardio",
+    "tanggal": "27-09-2026",
+    "durasi": 30,
+    "kalori": 300
+  },
+
+   {
+    "id": "4",
+    "judul": "Pull-up",
+    "kategori": "Strength",
+    "tanggal": "29-09-2026",
+    "durasi": 15,
+    "kalori": 80
+  },
+
+   {
+    "id": "5",
+    "judul": "Pilates",
+    "kategori": "Fleksibilitas",
+    "tanggal": "01-10-2026",
+    "durasi": 40,
+    "kalori": 130
+  },
+
+   {
+    "id": "6",
+    "judul": "Berenang",
+    "kategori": "Kardio",
+    "tanggal": "03-10-2026",
+    "durasi": 30,
+    "kalori": 195
+  },
+
+   {
+    "id": "7",
+    "judul": "Basket",
+    "kategori": "Olahraga Permainan",
+    "tanggal": "05-10-2026",
+    "durasi": 45,
+    "kalori": 320
+  },
+
+   {
+    "id": "8",
+    "judul": "Senam",
+    "kategori": "Kardio",
+    "tanggal": "07-10-2026",
+    "durasi": 40,
+    "kalori": 280
+  },
+
+   {
+    "id": "9",
+    "judul": "Angkat Beban",
+    "kategori": "Strength",
+    "tanggal": "09-10-2026",
+    "durasi": 45,
+    "kalori": 315
+  },
+
+   {
+    "id": "10",
+    "judul": "Badminton",
+    "kategori": "Olahraga Permainan",
+    "tanggal": "11-10-2026",
+    "durasi": 45,
+    "kalori": 268
   }
 ]
