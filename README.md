@@ -58,7 +58,6 @@ Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts
 
 Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi mengubahnya di fork tidak berpengaruh.
 
-##README milikmu
 
 # Move & Grow
 
@@ -101,4 +100,3 @@ npm run dev
 - Conditional Rendering: Menampilkan tampilan sesuai kondisi data.
 - Array Methods: Menggunakan map(), filter(), dan find() untuk mengolah data aktivitas.
 
-  ```
